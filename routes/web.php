@@ -7,7 +7,7 @@ Route::get('/', function () {
 });
 
 Route::get('/hello', function () {
-    return view('hello', ['title' => 'Hello World!']);
+    return view('show', ['title' => 'Hello World!']);
 });
 use App\Http\Controllers\CategoryController;
 use App\Http\Controllers\DishController;
